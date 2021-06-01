@@ -1,0 +1,7 @@
+stages:
+- stage: string  # name of the stage (A-Z, a-z, 0-9, and underscore)
+  displayName: string  # friendly name to display in the UI
+  dependsOn: string | [ string ]
+  condition: string
+  variables: # several syntaxes, see specific section
+  jobs: [ job | templateReference]
